@@ -271,8 +271,8 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- CONTACT -->
 ## Contact
+Percy's Portfolio: [percynguyen.com](https://www.percynguyen.com/)  
 
-Project Link: [https://github.com/PercyNguyen7/COMP348/Assignments/A1](https://github.com/PercyNguyen7/COMP348/Assignments/A1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
