@@ -21,12 +21,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-# Redact and Replacing Word Text Editor
+# 📝🔠Redact and Replacing Word Text Editor
 A fun-size project used to redact and replace words in a given text file! 
 The user has the option to make changes line by line, including make all possible changes, or no further changes to the programming at any given time.
 
 <!-- USAGE EXAMPLES -->
-## Functionality
+## 🎯 Functionality
 Given any text file, the software reads each line and asks the user if they'd like to edit it 
 ![image](https://github.com/user-attachments/assets/e1b66903-c4b0-405e-8e54-89bf2d688644)
 
@@ -161,7 +161,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## ⬇️ Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
@@ -180,7 +180,7 @@ You may test out the code by either
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Usage
+## 🛠️ Usage
 
 ### Compilation
 Once downloaded, compile it and run the following code in your terminal
