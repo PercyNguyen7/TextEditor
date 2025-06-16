@@ -30,7 +30,7 @@ The user has the option to make changes line by line, including make all possibl
 Given any text file, the software reads each line and asks the user if they'd like to edit it 
 ![image](https://github.com/user-attachments/assets/e1b66903-c4b0-405e-8e54-89bf2d688644)
 
-The software's current commands are as followed:
+The software's current 4 mode commands are as followed:
 
 ### 1. Redact a word, case considered (RC)
 Censoring the specific word by substituting all its instances with a series of asterisks matching the word's length.
@@ -180,6 +180,31 @@ You may test out the code by either
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🗃️ File Structure  
+
+1. Header Files
+- An overview of their C file content
+- Declare all functions within their respective C file
+   
+2. C Files
+`kode.c`
+- Main file containing the main function.
+- Verify number of arguments from command line
+- Read text line by line and propose changes if appropriate
+  
+`fileread.c`    
+- Contains all file read and write logic, for instance check_file(), read_line(), write_line()
+
+`ui.c`
+- Main file containing the main function.
+- Handles user's response (changing line or not) as well as displaying instructions, summary and application's status to the user.
+
+`wordreplace.c`    
+- Contains word_replacing functions unique to each mode (RC, RI, UK, UM)
+- Contains helper functions ( censor_word, to_lowercase, ...) to avoid overcomplexity in the major functions
+
+Manages all user interactions, including confirmation prompts, summary outputs, and error messages.
+
 ## 🛠️ Usage
 
 ### Compilation
@@ -187,8 +212,6 @@ Once downloaded, compile it and run the following code in your terminal
 ```sh
   gcc -o kode -Wall kode.c fileread.c wreplace.c ui.c 
    ```
-
-
 
 ### Running Project
 You can run the project with the following command and parameters
@@ -254,8 +277,6 @@ Don't forget to give the project a star! Thanks again!
 Project Link: [https://github.com/PercyNguyen7/COMP348/Assignments/A1](https://github.com/PercyNguyen7/COMP348/Assignments/A1)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ACKNOWLEDGMENTS -->
 <!-- ## Acknowledgments
