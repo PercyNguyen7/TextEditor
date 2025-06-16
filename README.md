@@ -182,11 +182,11 @@ You may test out the code by either
 
 ## 🗃️ File Structure  
 
-1. Header Files
+### 1. Header Files
 - An overview of their C file content
 - Declare all functions within their respective C file
    
-2. C Files
+### 2. C Files  
 `kode.c`
 - Main file containing the main function.
 - Verify number of arguments from command line
@@ -197,13 +197,11 @@ You may test out the code by either
 
 `ui.c`
 - Main file containing the main function.
-- Handles user's response (changing line or not) as well as displaying instructions, summary and application's status to the user.
+- Handles user's response (changing line or not) as well as displaying instructions, summary and error messages.
 
 `wordreplace.c`    
 - Contains word_replacing functions unique to each mode (RC, RI, UK, UM)
 - Contains helper functions ( censor_word, to_lowercase, ...) to avoid overcomplexity in the major functions
-
-Manages all user interactions, including confirmation prompts, summary outputs, and error messages.
 
 ## 🛠️ Usage
 
